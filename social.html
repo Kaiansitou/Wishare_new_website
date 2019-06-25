@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wi-Data</title>
+  <!-- Less CSS style sheet -->
+  <link rel="stylesheet/less" type="text/css" href="./style.less?rand=<?=time()?>" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-section">
+    <div class=" section-wrapper" style="width:100%;">
+
+      <div class="home-menu">
+        <img class="home-image" src="image/wishare_logo.png" alt="">
+        <div class="home-link">
+          <a href="http://localhost:3000">HOME</a>
+          <a href="http://localhost:3000/data">WI-DATA</a>
+          <a href="http://localhost:3000/service" class="service">SERVICE</a>
+          <a href="http://localhost:3000/deal">WISHARE DEALS</a>
+          <a href="http://localhost:3000/company">COMPANY</a>
+          <a href="http://localhost:3000/contact">CONTACT US</a>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="http://localhost:3000">HOME</a>
+            <a href="http://localhost:3000/data" class="data">WI-DATA</a>
+            <a href="http://localhost:3000/service">SERVICE</a>
+            <a href="http://localhost:3000/deal">WISHARE DEALS</a>
+            <a href="http://localhost:3000/company">COMPANY</a>
+            <a href="http://localhost:3000/contact">CONTACT US</a>
+          </div>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer;color:white;padding:0 15px;" onclick="openNav()">&#9776;</span>
+        <img class="mobile-image" src="image/wishare_logo.png" alt="">
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+      </script>
+      
+      <div class="service-image">
+        <h1>社交媒体
+          <br>
+          WI-SOCIAL</h1>
+      </div>
+
+      <div class="social-container">
+        <div class="social-button">
+          <a href="http://localhost:3000/social"><button type="button" name="button" style="background-color: #FE685A; border-color:#FE685A;">全方位的服务解决方案</button></a>
+          <a href="http://localhost:3000/social1"><button type="button" name="button" style="background-color:black; border-color:black;">全方位社交媒体推广方案</button></a>
+        </div>
+
+        <div class=" social-middle-container">
+          <div class=" social-content">
+            <div class="social-image"></div>
+            <p>依据WiShare多年的广告服务经验，我们从与客户接触伊始就以完整的品牌规划为目标，
+              全方位考虑品牌需求，深度了解品牌故事和品牌优势。从而在更长的合作周期内为客户提供“
+              一站式”服务。解决从素材准备、设计、拍摄、文案到推广的所有需求，同时，
+              为了更好地服务客户，Wishare研发出了一套能够解决社交媒体管理的终极方案：
+              Wi-Social 社交媒体管理方案。</p>
+          </div>
+
+          <div class="social-title">
+            <div class="section-wrapper">
+              <h2>全方位的服务解决方案</h2>
+              <br>
+              <hr>
+            </div>
+          </div>
+
+          <div class="data-middle-container">
+
+
+            <div class="data-box">
+              <img src="image/social1.png" alt="">
+              <div class="data-box-info">
+                <h5>一对一客制化，全面策划</h5>
+                <p class="social-info">Wishare团队在进驻客户伊始，就会派驻专属客户经理，
+                  经过多次专业会谈，将为客户做出未来6-12个月的完整规划。
+                  从Wishare即将开始的服务，到后期Wishare需要与企业开展的业务。
+                  Wishare提前做出前瞻性规划，按阶段实行，与Wishare合作除了省心，
+                  更省钱。</p>
+              </div>
+            </div>
+
+            <div class="data-box">
+              <div class="data-box-info" style="padding: 10px 0;">
+                <h5> 一站式服务全面解决运营需求</h5>
+                <p class="social-info">Wishare为每一位客户搭建最完善的团队，从拍摄、文案到设计策划，
+                  配合专属客户经理，Wishare的服务让企业以单一雇员的成本获得完整团队的服务。
+                  高效及时的反馈让企业的每一个需求都得到最及时的推广。从此市场不求人。</p>
+              </div>
+              <img src="image/social2.png" alt="">
+
+            </div>
+
+
+            <div class="data-box">
+              <img src="image/social3.png" alt="">
+              <div class="data-box-info">
+                <h5>经过设计的选题与排版</h5>
+                <p class="social-info">根据wishare丰富的社交媒体服务经验，
+                  我们的每一个主题和排版都是经过研究和规划的。
+                  在相应的时效内。我们出品更容易让人愿意花时间阅读、
+                  分享，与关注企业所推广的品牌。</p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="before-footer">
+        <div class="before-footer-box">
+          <img class="before-footer-image" src="image/wishare_logo.png" alt="">
+          <p class="bf-des">Wishare为客户提供最完善的客制化解决方案，从目标客群选取，
+            到内容制作，拒绝使用相同的素材与方案。保证客户投放效果的同时，
+            为客户创造更多衍生价值。</p>
+          <div class="before-footer-info">
+            <img src="image/location.png" alt="">
+            <h6>3380 Flair Dr #110, El Monte,CA 91731</h6>
+          </div>
+
+          <div class="before-footer-info">
+            <img src="image/phone.png" alt="">
+            <h6>(626) 768 - 0758</h6>
+          </div>
+
+          <div class="before-footer-info">
+            <img src="image/email.png" alt="">
+            <h6>info@wisharemedia.com</h6>
+          </div>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Services</h2>
+          <ul>
+            <li>社交媒体</li>
+            <li>市场服务</li>
+            <li>媒体制作</li>
+          </ul>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="#">Wi-Data</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Wishare Deals</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Subscribe Us</h2>
+          <p>Make sure you dont miss interesting happenings by
+            joining our newsletter program.</p>
+          <input type="email" name="" value="" placeholder="Enter Your Email">
+          <button type="button" name="button">Subscribe</button>
+        </div>
+
+      </div>
+      <div class="footer">
+        <p>Copyright © 2019 Wishare Media Group</p>
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wi-Data</title>
+  <!-- Less CSS style sheet -->
+  <link rel="stylesheet/less" type="text/css" href="./style.less?rand=<?=time()?>" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-section">
+    <div class=" section-wrapper" style="width:100%;">
+
+      <div class="home-menu">
+        <img class="home-image" src="image/wishare_logo.png" alt="">
+        <div class="home-link">
+          <a href="http://localhost:3000">HOME</a>
+          <a href="http://localhost:3000/data">WI-DATA</a>
+          <a href="http://localhost:3000/service" class="service">SERVICE</a>
+          <a href="http://localhost:3000/deal">WISHARE DEALS</a>
+          <a href="http://localhost:3000/company">COMPANY</a>
+          <a href="http://localhost:3000/contact">CONTACT US</a>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="http://localhost:3000">HOME</a>
+            <a href="http://localhost:3000/data" class="data">WI-DATA</a>
+            <a href="http://localhost:3000/service">SERVICE</a>
+            <a href="http://localhost:3000/deal">WISHARE DEALS</a>
+            <a href="http://localhost:3000/company">COMPANY</a>
+            <a href="http://localhost:3000/contact">CONTACT US</a>
+          </div>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer;color:white;padding:0 15px;" onclick="openNav()">&#9776;</span>
+        <img class="mobile-image" src="image/wishare_logo.png" alt="">
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+      </script>
+      
+      <div class="market-image">
+        <h1>市场服务</h1>
+      </div>
+
+      <div class="social-container">
+        <div class="social-button">
+          <a href="http://localhost:3000/market"><button type="button" name="button" style="background-color: #FE685A; border-color:#FE685A;">战略营销</button></a>
+          <a href="http://localhost:3000/market1"><button type="button" name="button" style="background-color:black; border-color:black;">内容创建</button></a>
+          <a href=" http://localhost:3000/market2"> <button type="button" name="button" style="background-color:black; border-color:black;">付费广告</button></a>
+          <a href="http://localhost:3000/market3"> <button type="button" name="button" style="background-color:black; border-color:black;">网站开发</button></a>
+        </div>
+
+        <div class=" market-content">
+          <div class="market-middle-image">
+            <img src="image/market1.png" alt="">
+          </div>
+          <br>
+          <div class="market-title">
+            <h2>战略营销</h2>
+            <br>
+            <hr><br>
+          </div>
+
+          <div class="market-info">
+            <div class="market-box">
+              <img src="image/grid.png" alt="">
+              <h5>市场调查</h5>
+              <br>
+              <p class="market-info-des">企业需要通过市场调查，清楚获悉潜在客户的诉求与画像。
+                深刻了解潜在客户所需之产品，诉求之服务，其价格承受能力之上限，
+                从而指导市场策略。</p>
+            </div>
+            <div class="market-box" style="background-color:#F4F4F4;">
+              <img src="image/grid.png" alt="">
+              <h5>策略建议</h5>
+              <br>
+              <p class="market-info-des">伴随企业生产与运营，通过市场数据实时为企业提供生产关系、
+                客群关系、竞品现状等丰富的策略性建议。为企业发展保驾护航，
+                实现企业价值与效益。</p>
+            </div>
+
+            <div class="market-box">
+              <img src="image/grid.png" alt="">
+              <h5>生产关系协调</h5>
+              <br>
+              <p class="market-info-des">将既定的策略对企业内部、供应商、分销商进行充分介绍 ，
+                同时将竞争对手与客户关系进行明确的利益关系分化。
+                使得不同部分之间可以协同合作，具有相同目标。</p>
+            </div>
+          </div>
+          <br><br>
+          <div class="market-bottom-container">
+            <div class="market-left-box">
+              <h4>战略营销的主要作用</h4>
+              <br>
+              <ul>
+                <li>让企业从劣势走向优势</li>
+                <li>强化营销目的</li>
+                <li>使企业获得更好的市场定位</li>
+                <li>降低营销费用</li>
+              </ul>
+            </div>
+            <div class="market-right-box">
+              <img src="image/market2.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="before-footer">
+        <div class="before-footer-box">
+          <img class="before-footer-image" src="image/wishare_logo.png" alt="">
+          <p class="bf-des">Wishare为客户提供最完善的客制化解决方案，从目标客群选取，
+            到内容制作，拒绝使用相同的素材与方案。保证客户投放效果的同时，
+            为客户创造更多衍生价值。</p>
+          <div class="before-footer-info">
+            <img src="image/location.png" alt="">
+            <h6>3380 Flair Dr #110, El Monte,CA 91731</h6>
+          </div>
+
+          <div class="before-footer-info">
+            <img src="image/phone.png" alt="">
+            <h6>(626) 768 - 0758</h6>
+          </div>
+
+          <div class="before-footer-info">
+            <img src="image/email.png" alt="">
+            <h6>info@wisharemedia.com</h6>
+          </div>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Services</h2>
+          <ul>
+            <li>社交媒体</li>
+            <li>市场服务</li>
+            <li>媒体制作</li>
+          </ul>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="#">Wi-Data</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Wishare Deals</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Subscribe Us</h2>
+          <p>Make sure you dont miss interesting happenings by
+            joining our newsletter program.</p>
+          <input type="email" name="" value="" placeholder="Enter Your Email">
+          <button type="button" name="button">Subscribe</button>
+        </div>
+
+      </div>
+      <div class="footer">
+        <p>Copyright © 2019 Wishare Media Group</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

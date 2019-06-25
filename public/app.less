@@ -1,0 +1,387 @@
+
+.page-section {
+  background-color: @homepage-background;
+}
+
+
+.homepage-background {
+  background: linear-gradient(rgba(2,2,2,0.4),rgba(2,2,2,0.4)), url("image/homepage.png");
+  .background-image-function;
+
+  .homepage-title {
+    text-align: center;
+    color: @white-color;
+    font-size: 2em;
+    padding: 200px 0;
+  }
+
+  button {
+    padding: 10px 20px;
+    border-radius: 30px;
+
+    &:after {
+      content: " →";
+      color: @orange-red;
+    }
+  }
+
+  .homepage-menu {
+    display: flex;
+    padding: 30px;
+
+    .homepage-image {
+      width: 80px;
+      height: 30px;
+      position: absolute;
+    }
+
+    .homepage-link {
+      margin: auto;
+      padding: 10px 0;
+
+      a {
+        color: @white-color;
+        text-decoration: none;
+        font-size: 13px;
+        padding: 10px 15px;
+      }
+
+      .home {
+        color: @orange-red;
+      }
+    }
+  }
+}
+
+.section-wrapper {
+  .homepage-middle-container {
+    text-align: center;
+    padding: 50px;
+    background-color: #f4f4f4;
+    margin: 0 30px;
+
+    .homepage-middle-title {
+      color: @grey-color;
+      font-size: 14px;
+      padding: 30px 0;
+    }
+  }
+
+  .homepage-middle-description {
+    display: flex;
+    justify-content: center;
+
+    .hm-des {
+      padding: 40px;
+      background-color: @white-color;
+      border: 1px solid @white-color;
+      margin: 0 20px;
+    }
+  }
+
+  .des-button {
+    background-color: @black-color;
+    color: @white-color;
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px;
+  }
+
+  .color-description {
+    display: flex;
+    margin: 0 30px;
+
+    .c-description {
+      width: 100%;
+      text-align: center;
+      padding: 50px;
+      color: @white-color;
+
+      h2 {
+        padding: 20px 0;
+      }
+
+      p {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .homepage-project {
+    background-color: @homepage-background;
+    color: @white-color;
+    padding: 60px;
+    font-size: 2.5em;
+  }
+
+  .grey-box {
+    display: flex;
+    margin: 0 30px;
+
+    .grey-part {
+      color: @grey-color;
+      background-color: @grey-color;
+      padding: 100px;
+      flex: 1;
+      text-align: center;
+      margin: 1px;
+    }
+  }
+
+  .homepage-bottom-img {
+    background: linear-gradient(rgba(2,2,2,0.4),rgba(2,2,2,0.4)), url("image/hpm.png");
+    .background-image-function;
+    margin: 0 30px;
+
+    p {
+      color: @white-color;
+      width: 40%;
+      margin: auto;
+      padding: 50px 0;
+      font-size: 14px;
+    }
+
+    .newslife {
+      width: 40%;
+      display: flex;
+      margin: auto;
+      padding-bottom: 50px;
+
+      img {
+        width: 50px;
+        height: 50px;
+      }
+
+      h5 {
+        margin: 0;
+        padding: 15px;
+        color: @white-color;
+      }
+    }
+  }
+
+  .homepage-data {
+    background-color: @orange-red;
+    display: flex;
+    margin: 0 30px;
+
+    .data-box {
+      padding: 50px;
+      width: 100%;
+      color: @white-color;
+      text-align: center;
+
+      h3 {
+        font-size: 2.5em;
+      }
+    }
+  }
+
+  .before-footer {
+    background-color: @homepage-background;
+    color: @white-color;
+    display: flex;
+    padding: 20px 120px;
+    justify-content: space-between;
+    .bullet-color;
+
+    .before-footer-box {
+      width: 22%;
+
+      .bf-des {
+        font-size: 10px;
+        padding: 10px 0;
+      }
+
+      h2 {
+        padding: 10px 0 20px;
+      }
+
+      p {
+        font-size: 12px;
+        width: 80%;
+      }
+
+      ul {
+        font-size: 12px;
+        padding-left: 15px;
+
+        a {
+          color: @white-color;
+          text-decoration: none;
+        }
+      }
+
+      .before-footer-info {
+        display: flex;
+        padding: 5px 0;
+        width: 80%;
+
+        img {
+          width: 15px;
+          height: 15px;
+        }
+
+        h6 {
+          padding: 0 5px;
+        }
+      }
+
+      input {
+        padding: 5px 15px 5px 5px;
+        margin: 10px 0;
+      }
+
+      button {
+        padding: 10px 30px;
+        background-color: @orange-red;
+        border-color: @orange-red;
+        color: @white-color;
+        margin: 5px 0;
+      }
+    }
+  }
+}
+
+.footer {
+  background-color: @black-color;
+  color: @white-color;
+  padding: 20px 120px;
+  font-size: 12px;
+}
+@media only screen and (max-width : 414px) {
+  .mobile-menu{
+    opacity: 0.9;
+  }
+  .homepage-menu{
+    display:none !important;
+  }
+  .homepage-title{
+    padding-top:100px !important;
+  }
+  .overlay {
+    overflow-y: auto;
+  }
+
+  .overlay a {
+    font-size: 20px;
+  }
+
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+
+  .homepage-background {
+    .homepage-title {
+      font-size: 1em;
+      padding: 50px 0;
+    }
+
+    button {
+      padding: 5px 10px;
+      margin: 20px 0;
+    }
+  }
+
+  .homepage-menu {
+    img {
+      display: none;
+    }
+
+    .homepage-link {
+      padding: 0 !important;
+
+      a {
+        font-size: 8px !important;
+        padding: 0 4px !important;
+      }
+    }
+  }
+
+  .homepage-middle-container {
+    padding: 10px !important;
+  }
+
+  .homepage-middle-description {
+    flex-wrap: wrap;
+
+    .hm-des {
+      margin: 10px !important;
+      width: 30%;
+      padding: 10px !important;
+    }
+  }
+
+  .color-description {
+    flex-direction: column;
+    box-sizing: border-box;
+    margin: 0 30px;
+
+    .c-description {
+      width: auto !important;
+    }
+  }
+
+  .homepage-project {
+    font-size: 2em!important;
+  }
+
+  .grey-box {
+    flex-direction: column;
+
+    .grey-part {
+      margin: 0 1px !important;
+    }
+  }
+
+  .homepage-bottom-img {
+    p {
+      width: 80% !important;
+      font-size: 14px;
+    }
+
+    .newslife {
+      width: 70% !important;
+
+      img {
+        width: 60px !important;
+        height: 60px !important;
+      }
+
+      h5 {
+        font-size: 14px;
+      }
+    }
+  }
+
+  .homepage-data {
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .data-box {
+      padding: 20px 0 !important;
+      width: 30% !important;
+      font-size: 14px;
+    }
+  }
+
+  .before-footer {
+    padding: 20px 0 !important;
+    flex-wrap: wrap;
+
+    .before-footer-box {
+      width: 35% !important;
+      margin: 0 30px;
+
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
+
+  .footer {
+    padding: 10px 80px !important;
+  }
+}

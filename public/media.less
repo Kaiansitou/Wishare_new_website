@@ -1,0 +1,40 @@
+.media-image {
+  background: linear-gradient(rgba(2,2,2,0.4),rgba(2,2,2,0.4)), url("image/media.png");
+
+  h1 {
+    color: @white-color;
+    text-align: center;
+    padding: 40px 0;
+    font-size: 3em;
+  }
+}
+
+.social-container {
+  display: flex;
+}
+
+.social-button {
+  width: 20%;
+}
+
+.pic {
+  background-color: @white-color;
+  width: 63%;
+
+  img {
+    height: 205px;
+    box-sizing: border-box;
+    padding-right: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media only screen and (max-width : 414px) {
+  .pic {
+    width: 100%;
+
+     img{
+       padding-right:0;
+       padding-bottom:0;
+     }
+  }
+}

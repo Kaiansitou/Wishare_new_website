@@ -1,0 +1,44 @@
+.home-menu {
+  .home-link {
+    .deal {
+      color: @orange-red;
+    }
+  }
+}
+
+.deal-background {
+  background-image: url("image/deal-background.png");
+  .background-image-function;
+  color: @white-color;
+  padding: 200px 120px;
+
+  h1 {
+    font-size: 3em;
+  }
+
+  button {
+    padding: 5px 20px;
+    border-radius: 30px;
+    margin: 20px 0;
+
+    &:after {
+      content: " →";
+      color: @orange-red;
+    }
+  }
+}
+@media only screen and (max-width : 414px) {
+  .deal-background {
+    padding: 100px 0 100px 10px;
+
+    h1 {
+      font-size: 1em;
+    }
+
+    button {
+      padding: 3px 7px;
+      font-size: 6px;
+      margin: 5px 0;
+    }
+  }
+}

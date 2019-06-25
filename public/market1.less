@@ -1,0 +1,64 @@
+.market1-description {
+  p {
+    width: 550px;
+    font-size: 14px;
+  }
+}
+
+.market1-bottom-description {
+  display: flex;
+
+  .market1-left-box {
+    img {
+      width: 250px;
+      height: 260px;
+    }
+  }
+
+  .market1-right-box {
+    .bullet-color;
+    border: 1px solid #F4F4F4;
+    background-color: #F4F4F4;
+    margin: 0 20px;
+    padding: 30px;
+    height: 200px;
+    margin-left: 40px;
+
+    h1 {
+      font-size: 20px;
+    }
+
+    ul li {
+      font-size: 15px;
+    }
+  }
+}
+@media only screen and (max-width : 414px) {
+  .market-content {
+    .market1-description {
+      margin: 0 32px;
+
+      p {
+        width: 350px;
+      }
+    }
+
+    .market1-bottom-description {
+      flex-direction: column;
+
+      .market1-left-box {
+        margin: auto;
+
+        img {
+          width: 350px;
+          height: auto;
+        }
+      }
+
+      .market1-right-box {
+        margin: 30px;
+        width:290px;
+      }
+    }
+  }
+}

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Wi-Data</title>
+  <!-- Less CSS style sheet -->
+  <link rel="stylesheet/less" type="text/css" href="./style.less?rand=<?=time()?>" />
+  <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/3.9.0/less.min.js"></script>
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <div class="page-section">
+    <div class="section-wrapper" style="width:100%;">
+
+      <div class="home-menu">
+        <img class="home-image" src="image/wishare_logo.png" alt="">
+        <div class="home-link">
+          <a href="http://localhost:3000">HOME</a>
+          <a href="http://localhost:3000/data">WI-DATA</a>
+          <a href="http://localhost:3000/service">SERVICE</a>
+          <a href="http://localhost:3000/deal">WISHARE DEALS</a>
+          <a href="http://localhost:3000/company">COMPANY</a>
+          <a href="http://localhost:3000/contact" class="contact">CONTACT US</a>
+        </div>
+      </div>
+
+      <div class="mobile-menu">
+        <div id="myNav" class="overlay">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <div class="overlay-content">
+            <a href="http://localhost:3000">HOME</a>
+            <a href="http://localhost:3000/data" class="data">WI-DATA</a>
+            <a href="http://localhost:3000/service">SERVICE</a>
+            <a href="http://localhost:3000/deal">WISHARE DEALS</a>
+            <a href="http://localhost:3000/company">COMPANY</a>
+            <a href="http://localhost:3000/contact">CONTACT US</a>
+          </div>
+        </div>
+
+        <span style="font-size:30px;cursor:pointer;color:white;padding:0 15px;" onclick="openNav()">&#9776;</span>
+        <img class="mobile-image" src="image/wishare_logo.png" alt="">
+      </div>
+
+      <script>
+        function openNav() {
+          document.getElementById("myNav").style.height = "100%";
+        }
+
+        function closeNav() {
+          document.getElementById("myNav").style.height = "0%";
+        }
+      </script>
+      
+      <div class="contact-image">
+        <div class="data-image-info">
+          <h1>Contact Us</h1>
+        </div>
+      </div>
+
+      <div class="contact-container">
+        <div class="left-contact-container">
+          <h2>Connect with us</h2>
+          <hr>
+          <h4>3380 Flair Dr #110, El Monte, CA 91731<br>
+            (626) 768 - 0758<br>
+            info@wisharemedia.com<h4>
+              <br>
+              <h2>Follow us</h2>
+              <hr>
+              <img src="image/instagram.png" alt="">
+              <img src="image/facebook.png" alt="">
+              <img src="image/youtube.png" alt="">
+        </div>
+
+        <div class="right-contact-container">
+          <div class="form-box">
+            <input type="text" name="" value="" placeholder="Name" style="margin:0 10px 0 0;">
+            <input type="email" name="" value="" placeholder="Email">
+          </div>
+          <br>
+          <div class="form-box">
+            <input type="text" name="" value="" placeholder="Subject" style="margin:0 10px 0 0;">
+            <input type="text" name="" value="">
+          </div>
+          <br>
+          <textarea name="name" rows="8" cols="80" placeholder="Message"></textarea>
+          <div class="form-box">
+            <input type="checkbox" class="contact-checkbox">
+            <p>By using this form you agree with the storage and handling
+              of your data by this website.</p>
+          </div>
+
+          <button type="button" name="button">SEND MESSAGE</button>
+        </div>
+      </div>
+
+      <div class="before-footer">
+        <div class="before-footer-box">
+          <img class="before-footer-image" src="image/wishare_logo.png" alt="">
+          <p class="bf-des">Wishare为客户提供最完善的客制化解决方案，从目标客群选取，
+            到内容制作，拒绝使用相同的素材与方案。保证客户投放效果的同时，
+            为客户创造更多衍生价值。</p>
+          <div class="before-footer-info">
+            <img src="image/location.png" alt="">
+            <h6>3380 Flair Dr #110, El Monte,CA 91731</h6>
+          </div>
+
+          <div class="before-footer-info">
+            <img src="image/phone.png" alt="">
+            <h6>(626) 768 - 0758</h6>
+          </div>
+
+          <div class="before-footer-info">
+            <img src="image/email.png" alt="">
+            <h6>info@wisharemedia.com</h6>
+          </div>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Services</h2>
+          <ul>
+            <li>社交媒体</li>
+            <li>市场服务</li>
+            <li>媒体制作</li>
+          </ul>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Links</h2>
+          <ul>
+            <li><a href="#">Wi-Data</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Wishare Deals</a></li>
+            <li><a href="#">Company</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+
+        <div class="before-footer-box">
+          <h2>Subscribe Us</h2>
+          <p>Make sure you dont miss interesting happenings by
+            joining our newsletter program.</p>
+          <input type="email" name="" value="" placeholder="Enter Your Email">
+          <button type="button" name="button">Subscribe</button>
+        </div>
+
+      </div>
+
+      <div class="footer">
+        <p>Copyright © 2019 Wishare Media Group</p>
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>
